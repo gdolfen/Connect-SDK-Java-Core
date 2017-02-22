@@ -1,0 +1,17 @@
+com.connectsdk.core
+com.connectsdk.device
+com.connectsdk.discovery
+com.connectsdk.discovery.provider
+com.connectsdk.discovery.provider.ssdp
+com.connectsdk.etc.helper
+com.connectsdk.service
+com.connectsdk.service.airplay
+com.connectsdk.service.capability
+com.connectsdk.service.capability.listeners
+com.connectsdk.service.command
+com.connectsdk.service.config
+com.connectsdk.service.netcast
+com.connectsdk.service.roku
+com.connectsdk.service.sessions
+com.connectsdk.service.upnp
+com.connectsdk.service.webos
