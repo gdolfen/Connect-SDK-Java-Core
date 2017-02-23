@@ -83,8 +83,8 @@
 <th>Errors</th>
 <th>Missing Classes</th></tr>
 <tr class="b">
-<td>390</td>
-<td>168</td>
+<td>400</td>
+<td>162</td>
 <td>0</td>
 <td>0</td></tr></table></div>
 <div class="section">
@@ -94,19 +94,7 @@
 <th>Class</th>
 <th>Bugs</th></tr>
 <tr class="b">
-<td><a href="#com.connectsdk.core.AppInfo">com.connectsdk.core.AppInfo</a></td>
-<td>1</td></tr>
-<tr class="a">
 <td><a href="#com.connectsdk.core.ChannelInfo">com.connectsdk.core.ChannelInfo</a></td>
-<td>1</td></tr>
-<tr class="b">
-<td><a href="#com.connectsdk.core.ExternalInputInfo">com.connectsdk.core.ExternalInputInfo</a></td>
-<td>1</td></tr>
-<tr class="a">
-<td><a href="#com.connectsdk.core.ProgramInfo">com.connectsdk.core.ProgramInfo</a></td>
-<td>3</td></tr>
-<tr class="b">
-<td><a href="#com.connectsdk.core.Util">com.connectsdk.core.Util</a></td>
 <td>1</td></tr>
 <tr class="a">
 <td><a href="#com.connectsdk.device.ConnectableDevice">com.connectsdk.device.ConnectableDevice</a></td>
@@ -160,7 +148,7 @@
 <td><a href="#com.connectsdk.service.DLNAService">com.connectsdk.service.DLNAService</a></td>
 <td>4</td></tr>
 <tr class="b">
-<td><a href="#com.connectsdk.service.NetcastTVService$21">com.connectsdk.service.NetcastTVService$21</a></td>
+<td><a href="#com.connectsdk.service.NetcastTVService$20">com.connectsdk.service.NetcastTVService$20</a></td>
 <td>1</td></tr>
 <tr class="a">
 <td><a href="#com.connectsdk.service.NetcastTVService$NetcastTVLaunchSessionR">com.connectsdk.service.NetcastTVService$NetcastTVLaunchSessionR</a></td>
@@ -266,22 +254,7 @@
 <td>2</td></tr>
 <tr class="a">
 <td><a href="#com.connectsdk.service.webos.WebOSTVServiceSocketClient$TrustManager">com.connectsdk.service.webos.WebOSTVServiceSocketClient$TrustManager</a></td>
-<td>1</td></tr></table></div><a name="com.connectsdk.core.AppInfo"></a>
-<div class="section">
-<h3>com.connectsdk.core.AppInfo<a name="com.connectsdk.core.AppInfo"></a></h3>
-<table border="0" class="bodyTable">
-<tr class="b">
-<th>Bug</th>
-<th>Category</th>
-<th>Details</th>
-<th>Line</th>
-<th>Priority</th></tr>
-<tr class="a">
-<td>com.connectsdk.core.AppInfo defines equals and uses Object.hashCode()</td>
-<td>BAD_PRACTICE</td>
-<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#HE_EQUALS_USE_HASHCODE">HE_EQUALS_USE_HASHCODE</a></td>
-<td>127</td>
-<td>High</td></tr></table></div><a name="com.connectsdk.core.ChannelInfo"></a>
+<td>1</td></tr></table></div><a name="com.connectsdk.core.ChannelInfo"></a>
 <div class="section">
 <h3>com.connectsdk.core.ChannelInfo<a name="com.connectsdk.core.ChannelInfo"></a></h3>
 <table border="0" class="bodyTable">
@@ -292,67 +265,10 @@
 <th>Line</th>
 <th>Priority</th></tr>
 <tr class="a">
-<td>com.connectsdk.core.ChannelInfo defines equals and uses Object.hashCode()</td>
-<td>BAD_PRACTICE</td>
-<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#HE_EQUALS_USE_HASHCODE">HE_EQUALS_USE_HASHCODE</a></td>
-<td>115</td>
-<td>High</td></tr></table></div><a name="com.connectsdk.core.ExternalInputInfo"></a>
-<div class="section">
-<h3>com.connectsdk.core.ExternalInputInfo<a name="com.connectsdk.core.ExternalInputInfo"></a></h3>
-<table border="0" class="bodyTable">
-<tr class="b">
-<th>Bug</th>
-<th>Category</th>
-<th>Details</th>
-<th>Line</th>
-<th>Priority</th></tr>
-<tr class="a">
-<td>com.connectsdk.core.ExternalInputInfo defines equals and uses Object.hashCode()</td>
-<td>BAD_PRACTICE</td>
-<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#HE_EQUALS_USE_HASHCODE">HE_EQUALS_USE_HASHCODE</a></td>
-<td>117</td>
-<td>High</td></tr></table></div><a name="com.connectsdk.core.ProgramInfo"></a>
-<div class="section">
-<h3>com.connectsdk.core.ProgramInfo<a name="com.connectsdk.core.ProgramInfo"></a></h3>
-<table border="0" class="bodyTable">
-<tr class="b">
-<th>Bug</th>
-<th>Category</th>
-<th>Details</th>
-<th>Line</th>
-<th>Priority</th></tr>
-<tr class="a">
-<td>com.connectsdk.core.ProgramInfo defines equals and uses Object.hashCode()</td>
-<td>BAD_PRACTICE</td>
-<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#HE_EQUALS_USE_HASHCODE">HE_EQUALS_USE_HASHCODE</a></td>
-<td>83</td>
-<td>High</td></tr>
-<tr class="b">
-<td>Self comparison of ProgramInfo.id with itself in com.connectsdk.core.ProgramInfo.equals(Object)</td>
-<td>CORRECTNESS</td>
-<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#SA_FIELD_SELF_COMPARISON">SA_FIELD_SELF_COMPARISON</a></td>
-<td>85</td>
-<td>Medium</td></tr>
-<tr class="a">
-<td>Self comparison of ProgramInfo.name with itself in com.connectsdk.core.ProgramInfo.equals(Object)</td>
-<td>CORRECTNESS</td>
-<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#SA_FIELD_SELF_COMPARISON">SA_FIELD_SELF_COMPARISON</a></td>
-<td>86</td>
-<td>Medium</td></tr></table></div><a name="com.connectsdk.core.Util"></a>
-<div class="section">
-<h3>com.connectsdk.core.Util<a name="com.connectsdk.core.Util"></a></h3>
-<table border="0" class="bodyTable">
-<tr class="b">
-<th>Bug</th>
-<th>Category</th>
-<th>Details</th>
-<th>Line</th>
-<th>Priority</th></tr>
-<tr class="a">
-<td>com.connectsdk.core.Util.T isn't final but should be</td>
-<td>MALICIOUS_CODE</td>
-<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#MS_SHOULD_BE_FINAL">MS_SHOULD_BE_FINAL</a></td>
-<td>38</td>
+<td>Redundant nullcheck of com.connectsdk.core.ChannelInfo.channelId, which is known to be non-null in com.connectsdk.core.ChannelInfo.hashCode()</td>
+<td>STYLE</td>
+<td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE">RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE</a></td>
+<td>130</td>
 <td>High</td></tr></table></div><a name="com.connectsdk.device.ConnectableDevice"></a>
 <div class="section">
 <h3>com.connectsdk.device.ConnectableDevice<a name="com.connectsdk.device.ConnectableDevice"></a></h3>
@@ -818,9 +734,9 @@
 <td>STYLE</td>
 <td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#REC_CATCH_EXCEPTION">REC_CATCH_EXCEPTION</a></td>
 <td>657</td>
-<td>Medium</td></tr></table></div><a name="com.connectsdk.service.NetcastTVService21"></a>
+<td>Medium</td></tr></table></div><a name="com.connectsdk.service.NetcastTVService20"></a>
 <div class="section">
-<h3>com.connectsdk.service.NetcastTVService$21<a name="com.connectsdk.service.NetcastTVService21"></a></h3>
+<h3>com.connectsdk.service.NetcastTVService$20<a name="com.connectsdk.service.NetcastTVService20"></a></h3>
 <table border="0" class="bodyTable">
 <tr class="a">
 <th>Bug</th>
@@ -829,7 +745,7 @@
 <th>Line</th>
 <th>Priority</th></tr>
 <tr class="b">
-<td>Boxing/unboxing to parse a primitive com.connectsdk.service.NetcastTVService$21.onSuccess(List)</td>
+<td>Boxing/unboxing to parse a primitive com.connectsdk.service.NetcastTVService$20.onSuccess(List)</td>
 <td>PERFORMANCE</td>
 <td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#DM_BOXED_PRIMITIVE_FOR_PARSING">DM_BOXED_PRIMITIVE_FOR_PARSING</a></td>
 <td>1075</td>
@@ -880,7 +796,7 @@
 <td>title could be null and is guaranteed to be dereferenced in com.connectsdk.service.RokuService.displayMedia(String, String, String, String, String, MediaPlayer$LaunchListener)</td>
 <td>CORRECTNESS</td>
 <td><a class="externalLink" href="http://findbugs.sourceforge.net/bugDescriptions.html#NP_GUARANTEED_DEREF">NP_GUARANTEED_DEREF</a></td>
-<td>679</td>
+<td>685</td>
 <td>Medium</td></tr>
 <tr class="b">
 <td>Null passed for non-null parameter of displayImage(String, String, String, String, String, MediaPlayer$LaunchListener) in com.connectsdk.service.RokuService.displayImage(MediaInfo, MediaPlayer$LaunchListener)</td>
